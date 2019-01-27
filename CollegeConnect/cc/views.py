@@ -89,7 +89,6 @@ class CCHomeView(TemplateView):
 	template_name = "index.html"
 
 class CCDetailView(DetailView):
-	template_name = 'cc_detail_view.html'
 	model = User
 	# class CCCreateView(UpdateView):
 	# model = User
